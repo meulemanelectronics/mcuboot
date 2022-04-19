@@ -33,4 +33,4 @@ distclean: clean
 clean:
 	ninja -C $(BUILD_DIR) clean
 
-.PHONY: $(SUBDIRS) init-bootloader botloader clean distclean
+.PHONY: $(SUBDIRS) init-bootloader bootloader clean distclean
